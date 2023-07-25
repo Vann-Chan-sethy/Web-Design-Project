@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    min-width: 1532px;
+    min-height: 667px;
+}
+.container{
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, black 0%, black 100%), linear-gradient(0deg, rgba(39, 55, 77, 0.40) 0%, rgba(39, 55, 77, 0.40) 100%);
+}
+.card-left{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    border-right: 10px white solid;
+}
+.card-right{
+    width: 75%;
+    height: 100%;
+    background: linear-gradient(0deg, black 0%, black 100%), linear-gradient(0deg, rgba(39, 55, 77, 0.40) 0%, rgba(39, 55, 77, 0.40) 100%);
+}
+.socia{
+    color: white;
+    font-size: 90px; 
+    font-family: Inria Serif; 
+    font-weight: 700;
+    margin-left: 60px;
+}
+.option{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.home-option{
+    display: flex;
+    padding-top: 100px;
+}
+.homeSvg{
+    width: 90px;
+    fill: white;
+    flex-shrink: 0;
+}
+.homeLink{
+    color: white; 
+    font-size: 90px; 
+    font-family: Inria Serif; 
+    font-weight: 700;
+}
+.homeLink a{
+    color: white;
+}
+.community-option{
+    display:flex;
+    padding-top: 50px;
+
+}
+.communitySvg{
+    width: 90px;
+    fill: rgba(255, 255, 255, 0.50);
+    flex-shrink: 0;
+}
+.communityLink{
+    color: rgba(255, 255, 255, 0.50); 
+    font-size: 90px; 
+    font-family: Inter; 
+    font-weight: 100;
+}
+.communityLink a{
+    color: rgba(255, 255, 255, 0.50);
+}
+.friends-option{
+    display:flex;
+    padding-top: 50px;
+}
+.friendsSvg{
+    width: 90px;
+    fill: rgba(255, 255, 255, 0.50);
+    flex-shrink: 0;
+}
+.friendsLink{
+    color: rgba(255, 255, 255, 0.50); 
+    font-size: 90px; 
+    font-family: Inter; 
+    font-weight: 100;
+}
+.friendsLink a{
+    color: rgba(255, 255, 255, 0.50);
+}
+.message-option{
+    display:flex;
+    padding-top: 50px;
+
+}
+.messageSvg{
+    width: 90px;
+    fill: rgba(255, 255, 255, 0.50);
+    flex-shrink: 0;
+}
+.messageLink{
+    color: rgba(255, 255, 255, 0.50); 
+    font-size: 90px; 
+    font-family: Inter; 
+    font-weight: 100;
+}
+.messageLink a{
+    color: rgba(255, 255, 255, 0.50);
+}
+.setting-option{
+    display:flex;
+    padding-top: 50px;
+
+}
+.settingSvg{
+    width: 90px;
+    fill: rgba(255, 255, 255, 0.50);
+    flex-shrink: 0;
+}
+.settingLink{
+    color: rgba(255, 255, 255, 0.50); 
+    font-size: 90px; 
+    font-family: Inter; 
+    font-weight: 100;
+}
+.settingLink a{
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.makeCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.post-btn button{
+    width: 700px;
+    height: 150px;
+    color: black; 
+    font-size: 90px; 
+    font-family: Inria Serif; 
+    font-weight: 400; 
+    background-color:#9DB2BF;
+    border: none;
+    border-radius: 100px;
+    margin-top: 175px;
+}
+
+.post:hover a{
+    color: black;
+}
+
+.post:hover{
+    background-color: white;
+}
+
+.post a{
+    color: white;
+
+}
+.user-profile{
+    
+    width: 100%;
+    height:25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.profilePic img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.Name{
+    line-height: 100px;
+}
+.userName{
+    color: white; 
+    font-size: 60px; 
+    font-family: Inter; 
+    font-weight: 700;
+}
+.shortName{
+    color: white; 
+    font-size: 60px; 
+    font-family: Inter; 
+    font-weight: 400;
+}
+.threeDots svg{
+    width: 90px;
+    fill: white;
+    flex-shrink: 0;
+}
+
+.profileInfo{
+    display: flex;
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    border-bottom: 10px white solid;
+}
+.homeHeader{
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: Inria Serif;
+    margin-left: 200px;
+}
+.searchSetup{
+    display: flex;
+    align-items: center;
+    margin-left: 2500px;
+}
+.searchSvg{
+    display: flex;
+    align-items: center;
+    fill: #63666A;
+    width: 100px;
+    height: 100px;
+}
+.searchLetter{
+    font-size: 60px;
+    font-weight: 400;
+}
+.searchLetter input{
+    height: 70px;
+    font-size: 60px;
+    border: none;
+    border-radius: 50px;
+    width: 70%;
+    text-align: center;
+    color: white;
+    background-color: #63666A;
+}
+::placeholder{
+    color: black;
+}
+.myPost{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.Name1{
+    line-height: 100px;
+    margin-left: 50px;
+}
+.userName1{
+    color: white; 
+    font-size: 60px; 
+    font-family: Inter; 
+    font-weight: 700;
+}
+.shortName1{
+    color: white; 
+    font-size: 60px; 
+    font-family: Inter; 
+    font-weight: 400;
+}
+.threeDots1 svg{
+    width: 90px;
+    fill: white;
+    flex-shrink: 0;
+    margin-left: 2125px;
+}
+.postCaption{
+    margin-top: 50px;
+    color: white; 
+    font-size: 60px; 
+    font-family: Inter; 
+    font-weight: 400;
+}
+.pic img{
+    border: 5px white solid;
+    border-radius: 50px;
+    width: 95%;
+    height: 1500px;
+    margin-top: 50px;
+}
